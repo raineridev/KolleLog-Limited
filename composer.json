@@ -1,0 +1,17 @@
+{
+    "name": "raineri/kollelog-limited",
+    "autoload": {
+        "psr-4": {
+            "Raineri\\KollelogLimited\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcelo Raineri",
+            "email": "raineridev@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
