@@ -1,5 +1,5 @@
 <?php
-namespace Raineri\KollelogLimited\Browser;
+namespace Raineri\KollelogLimited\Rules;
 use GuzzleHttp\Client;
 
 class Rules
@@ -26,4 +26,9 @@ class Rules
 	{
 		return $this->URIBlocked;
 	}
+
+  public function verifyRulesAllowed(array $rules) : bool
+  {
+    return false;
+  }
 }
